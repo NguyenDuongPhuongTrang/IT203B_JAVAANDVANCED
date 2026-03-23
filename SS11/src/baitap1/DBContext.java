@@ -11,7 +11,7 @@ public class DBContext {
 //    public static Connection getConnection() {
 //        String url = "jdbc:mysql://localhost:3306/database";
 //        String user = "root";
-//        String password = "sonbui123";
+//        String password = "061006";
 //        try {
 //            return DriverManager.getConnection(url, user, password);
 //        } catch (SQLException e) {
@@ -23,7 +23,7 @@ public class DBContext {
     // Viết lại
     private static String url = "jdbc:mysql://localhost:3306/database";
     private static String user = "root";
-    private static String password = "sonbui123";
+    private static String password = "061006";
 
     public static Connection getConnection() {
         Connection connection = null;
